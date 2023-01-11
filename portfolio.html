@@ -8,6 +8,29 @@
     <title>INVYCLICKS</title>
   </head>
   <body>
+    <header>
+      <nav class="nav collapsible">
+        <p class="logo">INVYCLICKS</p>
+        <svg class="icon nav__toggler">
+          <use xlink:href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item">PORTFOLIO</li>
+          <li class="nav__item">FEATURE</li>
+          <li class="nav__item">DOMAIN</li>
+          <li class="nav__item">ABOUT</li>
+        </ul>
+      </nav>
+      <div class="grid grid--1x3">
+        <div style="height: 100px; background: gold"></div>
+        <div style="height: 100px; background: dodgerblue"></div>
+        <div style="height: 100px; background: tomato"></div>
+      </div>
+    </header>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

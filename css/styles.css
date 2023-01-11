@@ -1,0 +1,44 @@
+@import "./normalize.css";
+:root {
+    --color-primary: #fff;
+    --color-secondary: #000;
+  }
+  .homepage{
+    background: dodgerblue;
+  }
+  /* Typography*/
+  body {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: var(--color-primary);
+  }
+
+  .list{
+    list-style: none;
+    text-align: center;
+    margin-top: 150px;
+    
+  }
+  .nav__item{
+    margin-bottom: 3rem;
+    cursor: pointer;
+  }
+  @media screen and (min-width: 768px) {
+    .list .nav__item{
+        letter-spacing: 12px;
+    }
+    
+     
+        
+    }
+    .nav__item{
+        margin-top: 12rem;
+        display: inline-block ;
+        letter-spacing: normal;
+        list-style-type: none;
+        margin-right: 13px;
+        padding-left: 21px;
+       
+      }
+  }

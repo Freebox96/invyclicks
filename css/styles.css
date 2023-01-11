@@ -110,9 +110,7 @@
     align-items: center;
   }
     /* Navigation Bar */
-    .logo{
-        margin-left: 3.5rem;
-    }
+    
     .nav{
        
         display: flex;
@@ -156,6 +154,7 @@
             max-height: 100%;
             opacity: 1;
             list-style: none;
+            margin-right:10rem;
           }
           .nav__item {
             border: 0;
@@ -194,3 +193,29 @@
     max-height: 100%;
     opacity: 1;
   }
+  /*porfolio body*/
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+ 
+  .grid {
+    display: grid;
+    
+  }
+  .feature{
+    gap:1rem;
+  }
+  .feature__image{
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .grid--1x4 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .container{
+        margin-top: 4rem;
+    }
+  }
+  

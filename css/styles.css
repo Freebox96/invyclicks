@@ -10,7 +10,7 @@
   /* Typograpghy*/
   body {
     font-family: Montserrat, Helvetica, Arial, sans-serif;
-    font-size: 1.8rem;
+    font-size: 1rem;
    
   }
   
@@ -35,7 +35,7 @@
   }
   @media screen and (min-width: 1024px) {
     body {
-      font-size: 1.8rem;
+      font-size: 1rem;
     }
     h1 {
       font-size: 8rem;
@@ -216,6 +216,11 @@
     }
     .container{
         margin-top: 4rem;
+       
     }
+    
   }
-  
+  /*footer*/
+  .footer{
+    text-align: center;
+  }

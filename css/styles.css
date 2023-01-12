@@ -6,11 +6,13 @@
     --color-headings: #050505;
     --color-body: #918ca4;
   }
+  
 
   /* Typograpghy*/
   body {
     font-family: Montserrat, Helvetica, Arial, sans-serif;
     font-size: 1rem;
+   
    
   }
   
@@ -221,6 +223,18 @@
   .feature__image{
     width: 100%;
   }
+  .heading{
+    position: absolute;
+    top: 34%;
+    width: 100%;
+    text-align: center;
+    color: var(--color-primary);
+
+  }
+  .banner{
+    position: relative;
+    margin: 0 auto;
+  }
   
   @media screen and (min-width: 1024px) {
     .grid--1x4 {
@@ -256,3 +270,31 @@
     border-top: 1px solid;
     text-align: center;
   }
+
+  /*Links*/
+  a {
+    text-decoration: none;
+  }
+  a{
+    color: var(--color-primary);
+  }
+  /* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: var(--color-accent);
+  }
+  
+  /* selected link */
+  a:active {
+    
+  }
+  

@@ -6,14 +6,13 @@
     --color-headings: #050505;
     --color-body: #918ca4;
   }
-  
 
   /* Typograpghy*/
   body {
     font-family: Montserrat, Helvetica, Arial, sans-serif;
     font-size: 1rem;
    
-   
+
   }
   
   h1, h2, h3 {
@@ -153,10 +152,6 @@
         box-shadow: 0 0 0 3px #666;
         border-radius: 5px;
       }
-      .nav__brand {
-        transform: translateY(5px);
-        width: 150px;
-      }
       @media screen and (min-width: 768px) {
         .nav__toggler {
           display: none;
@@ -166,7 +161,6 @@
             display: flex;
             font-size: 1rem;
             max-height: 100%;
-            opacity: 1;
             list-style: none;
             margin-right:10rem;
           }
@@ -177,30 +171,12 @@
     }
     /* Collapsibles */
 
-.collapsible__header {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .collapsible__heading {
-    margin-top: 0;
-    font-size: 3rem;
-  }
-  
-  .collapsible__chevron {
-    transform: rotate(-90deg);
-    transition: transform 0.3s;
-  }
   
   .collapsible__content {
     max-height: 0;
     overflow: hidden;
     opacity: 0;
     transition: all 0.3s;
-  }
-  
-  .collapsible--expanded .collapsible__chevron {
-    transform: rotate(0);
   }
   
   .collapsible--expanded .collapsible__content {
@@ -269,6 +245,7 @@
   .footer{
     border-top: 1px solid;
     text-align: center;
+    line-height: 8px;
   }
 
   /*Links*/
@@ -276,11 +253,11 @@
     text-decoration: none;
   }
   a{
-    color: var(--color-primary);
+    color: var(--color-secondary);
   }
   /* unvisited link */
 a:link {
-    color: red;
+    
   }
   
   /* visited link */
@@ -297,4 +274,9 @@ a:link {
   a:active {
     
   }
-  
+  /*contact*/
+
+
+  .container__contact{
+    text-align: center;
+  }

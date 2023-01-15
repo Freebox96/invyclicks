@@ -12,6 +12,8 @@
     font-family: Montserrat, Helvetica, Arial, sans-serif;
     font-size: 1rem;
    
+    
+   
 
   }
   
@@ -61,6 +63,11 @@
     }
 }
 /*Homepage*/
+.home__text{
+    color: #fff;
+  }
+
+ 
     .horizontal{
     color: var(--color-secondary);
         list-style: none;
@@ -69,14 +76,17 @@
         cursor: pointer;
         letter-spacing: 12px;
         text-size-adjust: 100%;
+        
+       
     }
     .horizontal__link{
         display: list-item;
         font-size: 40px;
         font-weight: 400;
-        letter-spacing: normal;
-        margin-top: 5rem;
+        letter-spacing: 0.2;
+        margin-top: 10rem;
         text-align:center
+        
 
     }
     @media screen and (min-width: 1024px) {
@@ -85,12 +95,11 @@
         }
         .horizontal__link{
             display: inline-block;
-            letter-spacing: normal;
+            letter-spacing: 0.9rem;
             margin-right: 24px;
-            padding-left: 50px;
-            padding-right: 125px;
             text-align: center;
             text-rendering: auto;
+            margin-top: 15rem;
             
         }
     }
@@ -297,3 +306,4 @@ a:link {
   .container__contact{
     text-align: center;
   }
+ 

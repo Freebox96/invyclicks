@@ -16,7 +16,7 @@
   }
   
   h1, h2, h3 {
-    color: var(--color-headings);
+   
     margin-bottom: 1rem;
     line-height: 1.1;
   }
@@ -137,10 +137,12 @@
         width: 100%;
         margin: 0;
         list-style: none;
+        
       }
       .nav__item {
         padding: 0.5rem 1rem;
         border-bottom: 1px solid;
+        
       }
       .nav__toggler {
         opacity: 0.5;
@@ -204,13 +206,16 @@
     top: 34%;
     width: 100%;
     text-align: center;
-    color: var(--color-primary);
+    
+    
 
   }
   .banner{
     position: relative;
     margin: 0 auto;
+   
   }
+  
   
   @media screen and (min-width: 1024px) {
     .grid--1x4 {
@@ -246,15 +251,27 @@
     border-top: 1px solid;
     text-align: center;
     line-height: 8px;
+    
+  }
+  .footer__contact{
+    border-top: 1px solid;
+    text-align: center;
+    line-height: 8px;
+    margin-top: 100%;
+
   }
 
   /*Links*/
+  .heading__text{
+    color: var(--color-primary);
+  }
   a {
     text-decoration: none;
   }
   a{
     color: var(--color-secondary);
   }
+  
   /* unvisited link */
 a:link {
     
